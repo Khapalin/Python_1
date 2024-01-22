@@ -1,6 +1,6 @@
 def name_data():
     name = input("Введите ваше имя: ")
-    print("Очень красивое имя!")
+    print("Отличное имя!")
     return name
 
 def surname_data():

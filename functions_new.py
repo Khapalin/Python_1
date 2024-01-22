@@ -45,7 +45,7 @@ def edit_data():
         with open("data_second_var.csv", 'r', encoding='utf-8') as f:
             data = f.readlines()            
 
-        print("Доступные данные для изменения:")
+        print("Доступные данные для изменения: ")
         print(*data)
 
         line_number = int(input("Введите номер строки, которую хотите изменить: "))
@@ -72,7 +72,7 @@ def delete_data():
         with open("data_first_var.csv", 'r', encoding='utf-8') as f:
             data = f.readlines()
 
-        print("Доступные данные для удаления:")
+        print("Доступные данные для удаления: ")
         print(*data)
 
         line_number = int(input("Введите номер строки, которую хотите удалить: "))
@@ -90,7 +90,7 @@ def delete_data():
         with open("data_second_var.csv", 'r', encoding='utf-8') as f:
             data = f.readlines()
 
-        print("Доступные данные для удаления:")
+        print("Доступные данные для удаления: ")
         print(*data)
 
         line_number = int(input("Введите номер строки, которую хотите удалить: "))
